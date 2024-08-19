@@ -3151,7 +3151,7 @@ static int ad9361_rf_port_setup(struct ad9361_rf_phy *phy, bool is_out,
 		val = 3 <<  (rx_inputs * 2);
 	else
 		val = 1 <<  (rx_inputs - 3);
-
+val=3;//liwei
 	if (txb)
 		val |= TX_OUTPUT; /* Select TX1B, TX2B */
 
